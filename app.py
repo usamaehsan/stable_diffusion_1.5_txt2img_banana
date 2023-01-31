@@ -26,8 +26,7 @@ def make_scheduler(name, config):
 def init():
     global model
     HF_AUTH_TOKEN = os.getenv('HF_AUTH_TOKEN')
-    model = StableDiffusionPipeline.from_pretrained(model_path,
-                                                    torch_dtype=torch.float16, use_auth_token=HF_AUTH_TOKEN)
+    model = StableDiffusionPipeline.from_pretrained(model_path, torch_dtype=torch.float16, use_auth_token=HF_AUTH_TOKEN)
 
 
 def inference(model_inputs):
