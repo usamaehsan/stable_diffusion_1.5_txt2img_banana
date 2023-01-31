@@ -8,7 +8,7 @@
         "width": 512,
         "steps": 20,
         "guidance_scale": 9,
-        "scheduler": "K_EULER_ANCESTRAL",
+        "scheduler": "K_EULER_ANCESTRAL"
     },
     "example_output": {
         "image_base64": "<BASE64_STRING>"
